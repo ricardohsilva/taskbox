@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn build",
+    "build": "react-scripts build && npx chromatic --project-token=b99f26184a32 --exit-once-uploaded",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
