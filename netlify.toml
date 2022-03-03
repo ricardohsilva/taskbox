@@ -2,4 +2,4 @@
 # all contexts unless otherwise overridden by more specific contexts.
 [build]
   base    = ''
-  command = "npx chromatic --project-token=b99f26184a32"
+  command = "npx chromatic --project-token=b99f26184a32 --auto-accept-changes"
