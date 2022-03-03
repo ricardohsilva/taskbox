@@ -1,5 +1,5 @@
 # Settings in the [build] context are global and are applied to 
 # all contexts unless otherwise overridden by more specific contexts.
 [build]
-
-  #command = "npx chromatic --project-token=b99f26184a32"
+  [context.deploy-preview]
+    command = "npx chromatic --project-token=b99f26184a32"
